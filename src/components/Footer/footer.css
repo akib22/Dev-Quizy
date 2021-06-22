@@ -1,0 +1,5 @@
+@layer components {
+  .link {
+    @apply text-gray-800 hover:text-blue-500 font-light block;
+  }
+}

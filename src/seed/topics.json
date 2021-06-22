@@ -1,0 +1,58 @@
+[
+  {
+    "name": "JavaScript",
+    "icon": ""
+  },
+  {
+    "name": "NodeJS",
+    "icon": ""
+  },
+  {
+    "name": "ReactJS",
+    "icon": ""
+  },
+  {
+    "name": "VueJS",
+    "icon": ""
+  },
+  {
+    "name": "Angular",
+    "icon": ""
+  },
+  {
+    "name": "HTML",
+    "icon": ""
+  },
+  {
+    "name": "CSS",
+    "icon": ""
+  },
+  {
+    "name": "Python",
+    "icon": ""
+  },
+  {
+    "name": "GO",
+    "icon": ""
+  },
+  {
+    "name": "PHP",
+    "icon": ""
+  },
+  {
+    "name": "Java",
+    "icon": ""
+  },
+  {
+    "name": "PostgreSQL",
+    "icon": ""
+  },
+  {
+    "name": "MySQL",
+    "icon": ""
+  },
+  {
+    "name": "MonGoDB",
+    "icon": ""
+  }
+]

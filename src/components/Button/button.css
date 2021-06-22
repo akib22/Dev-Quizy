@@ -1,0 +1,5 @@
+@layer components {
+  .btn-blue-rounded {
+    @apply text-white font-semibold bg-blue-500 hover:bg-blue-700 border-blue-700 border-b hover:border-indigo-900 transition-all px-6 py-2 rounded-full focus:outline-none;
+  }
+}
