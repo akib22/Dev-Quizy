@@ -1,5 +1,5 @@
 import Nav from '../components/Nav';
-import Button from '../components/Button';
+import ButtonLink from '../components/ButtonLink';
 import Footer from '../components/Footer';
 import questionImg from '../assets/home.png';
 
@@ -12,7 +12,7 @@ export default function Home() {
           <h1 className="text-3xl mb-1 md:text-5xl md:mb-3 tracking-wider">Test Your Skills</h1>
           <h1 className="text-3xl mb-1 md:text-5xl md:mb-3 tracking-wider">By Taking</h1>
           <h1 className="text-3xl mb-1 md:text-5xl md:mb-3 tracking-wider">Quizzes</h1>
-          <Button content="Take a Quiz" />
+          <ButtonLink content="Take a Quiz" path="/topics" />
         </div>
         <div className="w-full">
           <img src={questionImg} alt="Question" />

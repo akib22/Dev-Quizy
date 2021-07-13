@@ -1,14 +1,20 @@
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
-export default function Card({ name, icon }) {
+import './card.css';
+import { useQuiz } from '../../context/quiz';
+
+// TODO: add icon for topic card
+export default function Card({ name }) {
+  const { setTopic } = useQuiz();
+
   return (
-    <div>
+    <Link onClick={() => setTopic(name)} className="card" to="/quizzes">
       <span>{name}</span>
-    </div>
+    </Link>
   );
 }
 
 Card.propTypes = {
   name: PropTypes.string.isRequired,
-  icon: PropTypes.string.isRequired,
 };

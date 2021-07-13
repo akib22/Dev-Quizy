@@ -4,6 +4,6 @@
 
 @layer components {
   .container {
-    @apply max-w-screen-lg max-w-screen-xl m-auto;
+    @apply max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg m-auto;
   }
 }

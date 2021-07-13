@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-import Button from '../Button/index';
+import ButtonLink from '../ButtonLink/index';
 
 export default function Nav() {
   return (
@@ -8,7 +8,7 @@ export default function Nav() {
       <Link to="/" className="text-xl text-blue-500 font-semibold">
         Dev Quizy
       </Link>
-      <Button content="Take a quiz" />
+      <ButtonLink content="Take a quiz" path="/topics" />
     </nav>
   );
 }

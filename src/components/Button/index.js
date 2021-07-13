@@ -1,15 +1,20 @@
-import React from 'react';
 import PropTypes from 'prop-types';
-import './button.css';
 
-export default function Button({ content }) {
+export default function Button({ label, handler, disabled }) {
   return (
-    <button className="btn-blue-rounded" type="button" onClick={() => {}}>
-      {content}
+    <button
+      disabled={disabled}
+      className="btn-blue-rounded disabled:opacity-60 disabled:cursor-not-allowed last:mt-3"
+      type="button"
+      onClick={handler}
+    >
+      {label}
     </button>
   );
 }
 
 Button.propTypes = {
-  content: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired,
+  handler: PropTypes.func.isRequired,
+  disabled: PropTypes.bool,
 };

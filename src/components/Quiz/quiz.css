@@ -1,0 +1,5 @@
+@layer components {
+  .quiz-card {
+    @apply border p-5 rounded m-auto shadow-sm;
+  }
+}

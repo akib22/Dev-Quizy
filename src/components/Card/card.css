@@ -1,0 +1,5 @@
+@layer components {
+  .card {
+    @apply border p-3 rounded w-1/4 mb-5 mr-5 hover:text-blue-500 hover:shadow transition-all;
+  }
+}
